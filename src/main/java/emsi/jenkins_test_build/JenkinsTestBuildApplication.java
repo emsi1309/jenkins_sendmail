@@ -20,6 +20,7 @@ public class JenkinsTestBuildApplication  implements CommandLineRunner{
 
 	@Value("${mail.content}")
 	private String content;
+
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsTestBuildApplication.class, args);
 	}
